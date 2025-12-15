@@ -5,17 +5,17 @@ import ExportView from '@/views/ExportView.vue'
 
 const routes: RouteRecordRaw[] = [
   {
-    path: '/',
+    path: '/front-back-vue',
     name: 'generator',
     component: ColorGeneratorView,
   },
   {
-    path: '/library',
+    path: '/front-back-vue/library',
     name: 'library',
     component: PaletteLibraryView,
   },
   {
-    path: '/export',
+    path: '/front-back-vue/export',
     name: 'export',
     component: ExportView,
   },
