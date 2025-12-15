@@ -13,7 +13,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
   ],
-  base: "/front-back-vue/",
+  base: '/front-back-vue/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
