@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+* {
+    transition: all 0.2s;
+}
+
+:root {
+    --color-background: #e6e6e6;
+    --color-foreground: #007a55;
+    --color-button: #4079ef;
+}
+
+.bg-color-background {
+   background-color: var(--color-background);
+}
+
+.bg-color-foreground {
+    background-color: var(--color-foreground);
+}
+
+.bg-color-button {
+    background-color: var(--color-button);
+}
+
+body {
+    background-color: var(--color-background);
+}
+
