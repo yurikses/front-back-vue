@@ -10,21 +10,21 @@ import { RouterLink, RouterView } from "vue-router";
 
   <nav class="w-[60%] mx-auto mt-4 flex gap-4 border-b pb-2 text-sm">
     <RouterLink
-      to="/front-back-vue/"
+      to="/"
       class="px-2 py-1 rounded-md"
       active-class="bg-blue-500 text-white"
     >
       Генератор
     </RouterLink>
     <RouterLink
-      to="/front-back-vue/library"
+      to="/flibrary"
       class="px-2 py-1 rounded-md"
       active-class="bg-blue-500 text-white"
     >
       Библиотека
     </RouterLink>
     <RouterLink
-      to="/front-back-vue/export"
+      to="//export"
       class="px-2 py-1 rounded-md"
       active-class="bg-blue-500 text-white"
     >
